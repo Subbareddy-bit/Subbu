@@ -63,12 +63,7 @@ for (let i = 0; i < totalPages; i++) {
   console.log(`Navigating to ${pageNumber}`);
   await pageButtons.nth(i).click();
 
-  // Wait for table/grid to load after navigation
-// Validation: check for success message or uploaded file in UI
-  
-
-
-  await page.waitForTimeout(5000); // or better: wait for a row to appear
+  //await page.waitForTimeout(3000);
 
 }
 
