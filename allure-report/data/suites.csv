@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","31712","Verfi if user is able to uploadfiles or not","chromium","Fri Oct 24 14:06:09 IST 2025","broken","Fri Oct 24 14:06:41 IST 2025","","Uploadfiles.spec.js","",""
+"","11499","test","chromium","Fri Oct 24 14:09:49 IST 2025","passed","Fri Oct 24 14:10:01 IST 2025","","Traceviwer.spec.js","",""

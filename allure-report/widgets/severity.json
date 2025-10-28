@@ -1,0 +1,1 @@
+[{"uid":"ad85d140395a9ce8","name":"test","time":{"start":1761295189807,"stop":1761295201306,"duration":11499},"status":"passed","severity":"normal"},{"uid":"97cd51967d9dd288","name":"Verfi if user is able to uploadfiles or not","time":{"start":1761294969575,"stop":1761295001287,"duration":31712},"status":"broken","severity":"normal"}]
