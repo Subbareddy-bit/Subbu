@@ -1,0 +1,98 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - img "Kaye Logo" [ref=e4]
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - button "user icon Hello a!" [ref=e8] [cursor=pointer]:
+              - img "user icon" [ref=e9] [cursor=pointer]
+              - text: Hello a!
+            - text: 
+  - generic [ref=e10]:
+    - navigation [ref=e11]:
+      - button [ref=e12] [cursor=pointer]:
+        - img [ref=e13] [cursor=pointer]
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - link "Import Study Data" [ref=e17] [cursor=pointer]:
+            - /url: /Home/Import
+            - img [ref=e18] [cursor=pointer]
+            - text: Import Study Data
+        - listitem [ref=e20]:
+          - link "Export Study Data" [ref=e21] [cursor=pointer]:
+            - /url: /Home/Export
+            - img [ref=e22] [cursor=pointer]
+            - text: Export Study Data
+        - listitem [ref=e24]:
+          - link "Database Management" [ref=e25] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e26] [cursor=pointer]
+            - text: Database Management
+            - img [ref=e28] [cursor=pointer]
+        - listitem [ref=e30]:
+          - link "File Migration" [ref=e31] [cursor=pointer]:
+            - /url: /FileMigration/Index
+            - img [ref=e32] [cursor=pointer]
+            - text: File Migration
+        - listitem [ref=e34]:
+          - link "Configuration" [ref=e35] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e36] [cursor=pointer]
+            - text: Configuration
+            - img [ref=e38] [cursor=pointer]
+        - listitem [ref=e40]:
+          - link "Database User" [ref=e41] [cursor=pointer]:
+            - /url: /Home/CreateUser
+            - img [ref=e42] [cursor=pointer]
+            - text: Database User
+        - listitem [ref=e44]:
+          - link "AdminAudit" [ref=e45] [cursor=pointer]:
+            - /url: /Accounts/AuditHub
+            - img [ref=e46] [cursor=pointer]
+            - text: AdminAudit
+        - listitem [ref=e48]:
+          - link "Licensing" [ref=e49] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e50] [cursor=pointer]
+            - text: Licensing
+            - img [ref=e52] [cursor=pointer]
+        - listitem [ref=e54]:
+          - link "Department Management" [ref=e55] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e56] [cursor=pointer]
+            - text: Department Management
+            - img [ref=e58] [cursor=pointer]
+    - main [ref=e61]:
+      - generic [ref=e62]:
+        - heading "Import File" [level=1] [ref=e63]
+        - generic [ref=e64]:
+          - heading "Select VRT Files (.rtq)" [level=5] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67] [cursor=pointer]: Choose Files
+            - generic [ref=e68]: 0 Files Selected
+          - text: Choose .rtq Files
+        - button "Import" [active] [ref=e69] [cursor=pointer]
+        - heading "View Import History" [level=2] [ref=e72]:
+          - button "View Import History" [ref=e73] [cursor=pointer]
+  - contentinfo [ref=e74]:
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - link [ref=e77] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/18301468/
+          - img [ref=e78] [cursor=pointer]
+        - link [ref=e80] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UC0r3JDkvqzeMtE32u4dcYhA
+          - img [ref=e81] [cursor=pointer]
+        - link [ref=e83] [cursor=pointer]:
+          - /url: https://www.kayeinstruments.com/en/
+          - img [ref=e84] [cursor=pointer]
+      - generic [ref=e86]:
+        - text: © 2025 - Kaye Data Center - Version 1.1.0.6
+        - link [ref=e87] [cursor=pointer]:
+          - /url: /helpdocs/UserHelp.pdf#Import
+          - img [ref=e88] [cursor=pointer]
+```
