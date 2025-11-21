@@ -22,6 +22,8 @@ await Desktopmac.hover();  /// Mouse over
 
 await page.waitForTimeout(5000);
 console("iam ready");
+console("iam ready");
+console("iam ready");
 
 
 });
